@@ -5,6 +5,7 @@ import YTSearch from 'youtube-api-search';
 import SearchBar from './components/search_bar';
 import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
+import Carousel from './components/carousel';
 
 const API_KEY = 'AIzaSyAyRYXl14X5bzCohMMC6tjs5qih1VYHhWs';
 
@@ -41,6 +42,7 @@ class App extends Component {
         <VideoList
           onVideoSelect={selectedVideo => this.setState({selectedVideo}) }
           videos={this.state.videos} />
+        {/* <Carousel /> */}
       </div>
     );
   }

@@ -12,15 +12,23 @@ const VideoList = (props) => {
   });
 
   return (
-    <div className="carousel">
-      <div className="carousel-item">
-        {videoItems}
+    <div className="row">
+      <div className="carousel col s12">
+        <div className="col s12 carousel-item">
+          {videoItems[0]}
+        </div>
+        <div className="col s12 carousel-item">
+          {videoItems[1]}
+        </div>
+        <div className="col s12 carousel-item">
+          {videoItems[2]}
+        </div>
+        <div className="col s12 carousel-item">
+          {videoItems[3]}
+        </div>
       </div>
     </div>
 
-    // <ul className="col-md-4 list-group">
-    //   {videoItems}
-    // </ul>
   );
 };
 

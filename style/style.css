@@ -18,12 +18,18 @@
   border-radius: 4px;
 }
 
-.list-group-item {
+.cursor-point {
   cursor: pointer;
 }
 
 .list-group-item:hover {
   background-color: #eee;
+}
+
+.red-box {
+  height: 100px;
+  width: 100px;
+  background-color: red;
 }
 
 /* Embed Responsive  */
@@ -48,4 +54,17 @@
 
 .embed-responsive-16by9 {
   padding-bottom: 56.25%;
+}
+
+.wtf {
+  z-index: 0;
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(263.5px) translateY(100px) translateX(0px) translateX(0px) translateZ(0px);
+}
+
+.full-img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
 }
